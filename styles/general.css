@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    /* For body and calltoaction 400, 700 */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
