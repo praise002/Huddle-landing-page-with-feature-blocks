@@ -9,10 +9,29 @@ html{
 body{
     /* For body and calltoaction 400, 700 */
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    font-weight: 400;
 }
 
 h1, h2, h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+
+@media screen and (min-width:1024px) {
+    h1{
+        margin-top: 0;
+    }
+}
+
+button{
+    font-weight: 700;
+    font-size: 1.5rem;
 }
