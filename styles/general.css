@@ -16,7 +16,13 @@ body{
     padding: 20px;
 }
 
-h1, h2, h3{
+@media screen and (min-width: 1024px) {
+    body{
+        font-size: 1.3rem;
+    }
+}
+
+h1, h2, h3, h4{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     margin-top: 0;
@@ -41,11 +47,54 @@ h2{
 }
 
 h3{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    h3{
+        font-size: 1.9rem;
+    }
 }
 
 button{
     font-weight: 700;
     font-size: 1.5rem;
+}
+
+ul{
+    margin-top: 40px;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    ul{
+        margin-top: 0;
+    }
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer{
+    background: var(--very-dark-cyan);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    footer{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        align-items: center;
+        column-gap: 30px;
+        padding-left: 40px;
+    }
 }
