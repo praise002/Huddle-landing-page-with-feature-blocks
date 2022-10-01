@@ -106,8 +106,13 @@
 .btn{
     border: none;
     outline: 0;
-    
     border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background: hsl(322, 82%, 74%);
 }
 
 .btn--primary{
@@ -282,9 +287,15 @@
     border: 1px solid var(--grayish-blue);
     border-radius: 80%;
     color: #fff;
+    cursor: pointer;
     padding: 7px;
     margin-right: 5px;
     margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.fa-brands:hover{
+    color: var(--pink);
 }
 
 .copyright{

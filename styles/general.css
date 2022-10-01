@@ -74,6 +74,12 @@ ul{
 li{
     list-style: none;
     margin-bottom: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: underline;
 }
 
 footer{
