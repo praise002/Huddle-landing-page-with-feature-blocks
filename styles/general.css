@@ -12,8 +12,6 @@ body{
     font-size: 1.7rem;
     font-weight: 400;
     color: var(--grayish-blue);
-    /* Remove later */
-    padding: 20px;
 }
 
 @media screen and (min-width: 1024px) {
